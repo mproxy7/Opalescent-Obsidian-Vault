@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "c72f966253f9c1e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "82b96cfe2f2ef853",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef69d79f767a5f2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Manifesto.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Manifesto"
+            }
+          },
+          {
+            "id": "ec6849f1491f6a07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STAA Study/45. The Mysteries and their Emissaries.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "45. The Mysteries and their Emissaries"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8635fed683229335",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7aea43a33353119",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "396c798ff2e0e7eb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "834915f8fa2b844f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d81c0b5666377f23",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0afd6bb7da006b05",
+    "type": "split",
+    "children": [
+      {
+        "id": "c76f2d048e68d4a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46de450ac1e2f863",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Manifesto.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Manifesto"
+            }
+          },
+          {
+            "id": "b05b9e042fa54883",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Manifesto.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Manifesto"
+            }
+          },
+          {
+            "id": "f54f1e90e591c5bb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4ead1305aabd9946",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Manifesto.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Manifesto"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "ec6849f1491f6a07",
+  "lastOpenFiles": [
+    "STAA Study/44. American Indian Symbolism.md",
+    "STAA Study/45. The Mysteries and their Emissaries.md",
+    "STAA Study/43. The Faith of Islam.md",
+    "STAA Study/42. The Mystery of the Apocalypse.md",
+    "STAA Study/41. The Cross and the Crucifixion.md",
+    "STAA Study/40. Mystic Christianity.md",
+    "STAA Study/39. Freemasonic Symbolism.md",
+    "STAA Study/38. The Cryptogram as a Factor in Symbolic Philosophy.md",
+    "STAA Study/37. Bacon, Shakespeare, and the Rosicrucians.md",
+    "STAA Study/36. The Chemical Marriage.md",
+    "STAA Study/35. The Theory and Practice of Alchemy, Part II.md",
+    "STAA Study/34. The Theory and Practice of Alchemy.md",
+    "STAA Study/33. Alchemy and its Exponents.md",
+    "STAA Study/32. Fifteen Rosicrucian and Qabbalistic Diagrams.md",
+    "STAA Study/31. Rosicrucian Doctrines and Tenets.md",
+    "STAA Study/30. The Fraternity of the Rose Cross.md",
+    "STAA Study/29. The Tabernacle in the Wilderness.md",
+    "STAA Study/28. An Analysis of the Tarot Cards.md",
+    "STAA Study/27. Qabbalistic Keys to the Creation of Man.md",
+    "STAA Study/26. The Tree of the Sephiroth.md",
+    "STAA Study/25.  Fundamentals of Qabbalistic Cosmogony.md",
+    "STAA Study/24. The Qabbalah, The Secret Doctrine of Israel.md",
+    "STAA Study/23. Hermetic Pharmacology, Chemistry, and Therapeutics.md",
+    "STAA Study/22. The Elements and Their Inhabitants.md",
+    "STAA Study/21. Ceremonial Magic and Sorcery.md",
+    "STAA Study/20. Stones, Metals, and Gems.md",
+    "STAA Study",
+    "Music",
+    "Kundalini",
+    "Occult Philosophy",
+    "Symbolism",
+    "Mandala",
+    "Astrology",
+    "Tarot",
+    "Kabbalah",
+    "Computer Science"
+  ]
+}
