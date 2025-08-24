@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STAA Study/45. The Mysteries and their Emissaries.md",
+                "file": "Mathematics/0. Basics/9. Exponents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "45. The Mysteries and their Emissaries"
+              "title": "9. Exponents"
             }
           }
         ],
@@ -186,8 +186,29 @@
   },
   "active": "ec6849f1491f6a07",
   "lastOpenFiles": [
-    "STAA Study/44. American Indian Symbolism.md",
+    "Mathematics/0. Basics/8. Negative Numbers.md",
+    "Mathematics/0. Basics/9. Exponents.md",
+    "Mathematics/0. Basics/7. Long Division.md",
+    "Mathematics/0. Basics/1. Arithmetic.md",
+    "Mathematics/long_division.png",
+    "Mathematics/0. Basics/6. Multiplication of Large Numbers.md",
+    "Mathematics/0. Basics/5. The Distributive Property.md",
+    "Mathematics/0. Basics/4. Large Numbers.md",
+    "Mathematics/0. Basics/3.  Percentages, Fractions, and Decimals.md",
+    "Mathematics/0. Basics/2. Improper Fractions and Mixed Numbers.md",
+    "Mathematics/Untitled.md",
+    "Computer Science/7. Deep Learning",
+    "Computer Science/6. Machine Learning",
+    "Computer Science/5. Data Mining",
+    "Computer Science/4. Unix Administration",
+    "Computer Science/3. Operating Systems",
+    "Computer Science/2. Network Stack",
+    "Computer Science/1. Introduction to Computer Networks",
+    "Misc. Engineering and Science/X. Nanotechnology",
+    "Misc. Engineering and Science/3. Fundamentals of Mechanical Engineering",
+    "Misc. Engineering and Science/9. Finite Element Analysis",
     "STAA Study/45. The Mysteries and their Emissaries.md",
+    "STAA Study/44. American Indian Symbolism.md",
     "STAA Study/43. The Faith of Islam.md",
     "STAA Study/42. The Mystery of the Apocalypse.md",
     "STAA Study/41. The Cross and the Crucifixion.md",
@@ -201,26 +222,6 @@
     "STAA Study/33. Alchemy and its Exponents.md",
     "STAA Study/32. Fifteen Rosicrucian and Qabbalistic Diagrams.md",
     "STAA Study/31. Rosicrucian Doctrines and Tenets.md",
-    "STAA Study/30. The Fraternity of the Rose Cross.md",
-    "STAA Study/29. The Tabernacle in the Wilderness.md",
-    "STAA Study/28. An Analysis of the Tarot Cards.md",
-    "STAA Study/27. Qabbalistic Keys to the Creation of Man.md",
-    "STAA Study/26. The Tree of the Sephiroth.md",
-    "STAA Study/25.  Fundamentals of Qabbalistic Cosmogony.md",
-    "STAA Study/24. The Qabbalah, The Secret Doctrine of Israel.md",
-    "STAA Study/23. Hermetic Pharmacology, Chemistry, and Therapeutics.md",
-    "STAA Study/22. The Elements and Their Inhabitants.md",
-    "STAA Study/21. Ceremonial Magic and Sorcery.md",
-    "STAA Study/20. Stones, Metals, and Gems.md",
-    "STAA Study",
-    "Music",
-    "Kundalini",
-    "Occult Philosophy",
-    "Symbolism",
-    "Mandala",
-    "Astrology",
-    "Tarot",
-    "Kabbalah",
-    "Computer Science"
+    "STAA Study/30. The Fraternity of the Rose Cross.md"
   ]
 }
