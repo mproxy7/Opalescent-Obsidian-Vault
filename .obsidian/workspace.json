@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/0. Basics/9. Exponents.md",
+                "file": "Mathematics/0.5 Basics II/2. Least Common Multiplier (LCM).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. Exponents"
+              "title": "2. Least Common Multiplier (LCM)"
             }
           }
         ],
@@ -186,17 +186,21 @@
   },
   "active": "ec6849f1491f6a07",
   "lastOpenFiles": [
-    "Mathematics/0. Basics/8. Negative Numbers.md",
-    "Mathematics/0. Basics/9. Exponents.md",
-    "Mathematics/0. Basics/7. Long Division.md",
-    "Mathematics/0. Basics/1. Arithmetic.md",
-    "Mathematics/long_division.png",
-    "Mathematics/0. Basics/6. Multiplication of Large Numbers.md",
-    "Mathematics/0. Basics/5. The Distributive Property.md",
-    "Mathematics/0. Basics/4. Large Numbers.md",
-    "Mathematics/0. Basics/3.  Percentages, Fractions, and Decimals.md",
-    "Mathematics/0. Basics/2. Improper Fractions and Mixed Numbers.md",
+    "Mathematics/0.5 Basics II/1. Divisibility, Prime Numbers, and Prime Factorization.md",
+    "Mathematics/0. Basics I/1. Arithmetic.md",
+    "Mathematics/0. Basics I/3.  Percentages, Fractions, and Decimals.md",
+    "Mathematics/0. Basics I/5. The Distributive Property.md",
+    "Mathematics/0. Basics I/8. Negative Numbers.md",
+    "Mathematics/0. Basics I/9. Exponents.md",
+    "Mathematics/0. Basics I/X. PEMDAS.md",
+    "Mathematics/0. Basics I/6. Multiplication of Large Numbers.md",
+    "Mathematics/0.5 Basics II/2. Least Common Multiplier (LCM).md",
     "Mathematics/Untitled.md",
+    "Mathematics/0.5 Basics II",
+    "Mathematics/0. Basics I/7. Long Division.md",
+    "Mathematics/long_division.png",
+    "Mathematics/0. Basics I/4. Large Numbers.md",
+    "Mathematics/0. Basics I/2. Improper Fractions and Mixed Numbers.md",
     "Computer Science/7. Deep Learning",
     "Computer Science/6. Machine Learning",
     "Computer Science/5. Data Mining",
@@ -206,7 +210,6 @@
     "Computer Science/1. Introduction to Computer Networks",
     "Misc. Engineering and Science/X. Nanotechnology",
     "Misc. Engineering and Science/3. Fundamentals of Mechanical Engineering",
-    "Misc. Engineering and Science/9. Finite Element Analysis",
     "STAA Study/45. The Mysteries and their Emissaries.md",
     "STAA Study/44. American Indian Symbolism.md",
     "STAA Study/43. The Faith of Islam.md",
@@ -219,9 +222,6 @@
     "STAA Study/36. The Chemical Marriage.md",
     "STAA Study/35. The Theory and Practice of Alchemy, Part II.md",
     "STAA Study/34. The Theory and Practice of Alchemy.md",
-    "STAA Study/33. Alchemy and its Exponents.md",
-    "STAA Study/32. Fifteen Rosicrucian and Qabbalistic Diagrams.md",
-    "STAA Study/31. Rosicrucian Doctrines and Tenets.md",
-    "STAA Study/30. The Fraternity of the Rose Cross.md"
+    "STAA Study/33. Alchemy and its Exponents.md"
   ]
 }
