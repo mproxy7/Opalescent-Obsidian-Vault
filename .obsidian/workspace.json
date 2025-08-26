@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/0.5 Basics II/2. Least Common Multiplier (LCM).md",
+                "file": "Initial AI-generated Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Least Common Multiplier (LCM)"
+              "title": "Initial AI-generated Roadmap"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0afd6bb7da006b05",
@@ -186,6 +187,7 @@
   },
   "active": "ec6849f1491f6a07",
   "lastOpenFiles": [
+    "Mathematics/0.5 Basics II/2. Least Common Multiplier (LCM).md",
     "Mathematics/0.5 Basics II/1. Divisibility, Prime Numbers, and Prime Factorization.md",
     "Mathematics/0. Basics I/1. Arithmetic.md",
     "Mathematics/0. Basics I/3.  Percentages, Fractions, and Decimals.md",
@@ -194,7 +196,6 @@
     "Mathematics/0. Basics I/9. Exponents.md",
     "Mathematics/0. Basics I/X. PEMDAS.md",
     "Mathematics/0. Basics I/6. Multiplication of Large Numbers.md",
-    "Mathematics/0.5 Basics II/2. Least Common Multiplier (LCM).md",
     "Mathematics/Untitled.md",
     "Mathematics/0.5 Basics II",
     "Mathematics/0. Basics I/7. Long Division.md",

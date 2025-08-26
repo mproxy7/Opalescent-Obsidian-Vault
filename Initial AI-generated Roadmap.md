@@ -57,7 +57,7 @@ Optional, still pure-sim: **telemetry** via WebSocket/HTTP to a local server; **
 
 - **Superformula (Gielis)**: 
 
-    $$r(ϕ)=(∣\frac{cos⁡(mϕ/4)}{a}∣^{n_2}+∣\frac{sin⁡(mϕ/4)}{b}∣^{n_3})^{−1/n_1}$$
+    $$r(ϕ)=(|\frac{cos⁡(mϕ/4)}{a}|^{n_2}+|\frac{sin⁡(mϕ/4)}{b}|^{n_3})^{−1/n_1}$$
     
     Animate $m$, $n_1$, $n_2$, $n_3$ ​ slowly with LFOs tied to zodiac phase.
     
@@ -88,7 +88,6 @@ Optional, still pure-sim: **telemetry** via WebSocket/HTTP to a local server; **
     Choose $ω$ so one full revolution matches your desired “ritual” period (e.g., 12 minutes = 1 sign/min).
     
 - Zodiac index: $$Z=⌊\frac{\lambda\mod{2π}}{2π/12}⌋$$
-
 - Later (optional Kepler): 
 	mean anomaly $$M=n(t−t0)$$
 	solve $$E−esin⁡E=M$$
@@ -113,7 +112,7 @@ Optional, still pure-sim: **telemetry** via WebSocket/HTTP to a local server; **
     Hard clip: $$y=clip(gx)$$
     Chebyshev shaping: $$y=∑_kc_kT_k(x)$$
     
-- **Dynamic stage** (compressor): feed-forward RMS/peak detector; gain $$G=(∣x∣/T)^{\frac{−(ratio−1)}{ratio}}$$above threshold T.
+- **Dynamic stage** (compressor): feed-forward RMS/peak detector; gain $$G=(|x|/T)^{−(ratio−1)/ratio}$$above threshold T.
     
 - **Spectral warping**: phase vocoder or all-pass cascades (dispersion).
 - **Psychoacoustic targets** for “Rubedo” cadence: low roughness, harmonicity near integer partials, spectral centroid within target range, chord fit high.
@@ -130,7 +129,7 @@ Optional, still pure-sim: **telemetry** via WebSocket/HTTP to a local server; **
 
 - Keep the **mandala rotation** tracking the celestial clock despite perturbations (simulated drag/torque).
     
-- Demonstrate a **PLL**: phase detector, $$eϕ=wrap(ϕ_{mandala}−ϕ_{sun})$$loop filter (PI), numerically controlled oscillator (NCO) updates mandala speed.
+- Demonstrate a **PLL**: phase detector, $$e_ϕ=wrap(ϕ_{mandala}−ϕ_{sun})$$loop filter (PI), numerically controlled oscillator (NCO) updates mandala speed.
     
 - PID (position/speed):  
     $$u(t)=K_pe+K_i∫e dt+K_d\frac{de}{dt}$$
@@ -161,12 +160,11 @@ Optional, still pure-sim: **telemetry** via WebSocket/HTTP to a local server; **
 
 # 7) Kabbalah/Tarot traversal
 
-- Graph G=(V,E)G=(V,E)G=(V,E) with nodes VVV (Sephirot) and edges EEE (22 paths).
-    
+- Graph $G=(V,E)$ with nodes $V$ (Sephirot) and edges $E$ (22 paths).
+
 - Define a **path scheduler** that enumerates canonical sequences (e.g., lightning flash or serpent path).
-    
-- On edge activation: display Major Arcana k, modulate audio with a unique micro-gesture (e.g., interval/tempo change), and morph mandala symmetry (change superformula m).
-    
+
+- On edge activation: display Major Arcana k, modulate audio with a unique micro-gesture (e.g., interval/tempo change), and morph mandala symmetry (change superformula m).    
 
 ---
 
@@ -198,25 +196,21 @@ Optional, still pure-sim: **telemetry** via WebSocket/HTTP to a local server; **
 
 **Calculus & multivariable**
 
-- Curve differentials, curvature: κ=∣x′y′′−y′x′′∣(x′2+y′2)3/2\kappa=\frac{|x'y''-y'x''|}{(x'^2+y'^2)^{3/2}}κ=(x′2+y′2)3/2∣x′y′′−y′x′′∣​ for parametric mandala curves.
-    
-- Line/surface integrals for shader effects (e.g., arc length s=∫ ⁣x′2+y′2 dθs=\int\!\sqrt{x'^2+y'^2}\,d\thetas=∫x′2+y′2​dθ).
-    
-- Gradient / Jacobian for parameter morphing; chain rule in backprop.
-    
+- Curve differentials, curvature: $$\kappa = \frac{|x^{′}y^{′′}−y^{′}x^{′′}|}{(x^{′2}+y^{′2})^{3/2}}$$for parametric mandala curves.
+
+- Line/surface integrals for shader effects e.g., arc length:
+$$s=\int \sqrt{x'^2+y'^2}dθ$$
+- Gradient / Jacobian for parameter morphing; chain rule in backprop.    
 
 **DSP**
 
-- DFT/IDFT: Xk=∑n=0N−1xne−j2πkn/NX_k=\sum_{n=0}^{N-1} x_n e^{-j2\pi kn/N}Xk​=∑n=0N−1​xn​e−j2πkn/N.
-    
-- STFT reconstruction constraints; window overlap-add.
-    
-- Convolution: y[n]=∑mh[m]x[n−m]y[n]=\sum_m h[m]x[n-m]y[n]=∑m​h[m]x[n−m].
-    
-- Bilinear transform for analog→digital filters: s=2T1−z−11+z−1s=\frac{2}{T}\frac{1-z^{-1}}{1+z^{-1}}s=T2​1+z−11−z−1​.
-    
+- DFT/IDFT (Discrete Fourier Transform/Inverse Discrete Fourier Transform): $$X_k=\sum_{n=0}^{N−1}x_{n}e^{−j2πkn/N}$$
+- STFT (Short-time Fourier Transform) reconstruction constraints; window overlap-add.
+
+- Convolution: $$y[n]=\sum_{m}h[m]x[n−m]$$
+- Bilinear transform for analog→digital filters: $$s=\frac{2}{T} \cdot \frac{1−z^{−1}}{1+z^{−1}}$$
 - Biquad coefficient formulas (RBJ cookbook).
-    
+
 - Nonlinearities and aliasing; oversampling & polyphase CIC/HB filters.
     
 - Psychoacoustics: roughness (Vassilakis/Sethares-style), spectral centroid, inharmonicity.
@@ -225,18 +219,14 @@ Optional, still pure-sim: **telemetry** via WebSocket/HTTP to a local server; **
 **Control**
 
 - Discrete PID; Z-transform; root locus basics.
-    
-- PLL math: phase detector, loop filter TF F(z)F(z)F(z), NCO gain; stability (phase margin).
-    
-- State-space: xk+1=Axk+Buk,  yk=Cxk+Dukx_{k+1}=Ax_k+Bu_k,\; y_k=Cx_k+Du_kxk+1​=Axk​+Buk​,yk​=Cxk​+Duk​. LQR.
-    
+- PLL math: phase detector, loop filter TF $F(z)$, NCO gain; stability (phase margin).
+- State-space: $$x_{k+1}=Ax_k+Bu_k$$
+- $$y_k=Cx_k+Du_k$$, LQR (Linear Quadratic Regulator). 
 
 **Electromagnetics/actuation (for later)**
 
-- Lorentz force F=IL×B\mathbf{F}=I\mathbf{L}\times \mathbf{B}F=IL×B.
-    
-- Back-EMF in coils e=Blve=Blve=Blv; thermal limits I2RI^2RI2R.
-    
+- Lorentz force $$F=IL×B$$
+- Back-EMF in coils $$e=Blv$$; thermal limits $$I^{2}R$$
 
 **Geometry**
 
@@ -245,15 +235,13 @@ Optional, still pure-sim: **telemetry** via WebSocket/HTTP to a local server; **
 
 **Orbital basics**
 
-- Kepler’s equation E−esin⁡E=ME-e\sin E=ME−esinE=M; true anomaly ν; simple uniform model acceptable for art timing.
-    
+- Kepler’s equation $$E−esin⁡E=M$$, true anomaly ν; simple uniform model acceptable for art timing.
+
 
 **GAN/NN**
 
-- Minimax: min⁡Gmax⁡D  Ex∼pdata[log⁡D(x)]+Ez∼pz[log⁡(1−D(G(z)))]\min_G \max_D \;\mathbb{E}_{x\sim p_\text{data}}[\log D(x)] + \mathbb{E}_{z\sim p_z}[\log(1-D(G(z)))]minG​maxD​Ex∼pdata​​[logD(x)]+Ez∼pz​​[log(1−D(G(z)))].
-    
+- Minimax: $$\textnormal{min}_G\ \textnormal{max}_D\ {E}_{x\sim p_\text{data}}[\log D(x)] + E_{z∼p_{z}}[log⁡(1−D(G(z)))].$$
 - Practical variant (non-saturating), plus auxiliary loss = “harmony” metric.
-    
 
 ---
 
@@ -289,7 +277,7 @@ Optional, still pure-sim: **telemetry** via WebSocket/HTTP to a local server; **
 
 ### Milestone B — “Control Spine + PLL”
 
-- Simulate plant (θ,ω)(\theta,\omega)(θ,ω) with drag.
+- Simulate plant  $(\theta,\omega)$ with drag.
     
 - PID/PLL locks mandala phase to λ(t).
     
