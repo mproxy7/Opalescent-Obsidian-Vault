@@ -191,7 +191,7 @@ $$θ˙=ω$$$$Jω˙=u−bω−τ_{dist}$$
 
 **Calculus & multivariable**
 
-- Curve differentials, curvature: $$\kappa = \frac{|x^{′}y^{′′}−y^{′}x^{′′}|}{(x^{′2}+y^{′2})^{3/2}}$$for parametric mandala curves.
+- Curve differentials, curvature: $$\kappa = \frac{|x^{′}y^{′′}−y^{′}x^{′′}|}{(x^{′2}+y^{′2})^{3/2}}$$ for parametric mandala curves.
 
 - Line/surface integrals for shader effects e.g., arc length:
 $$s=\int \sqrt{x'^2+y'^2}dθ$$
