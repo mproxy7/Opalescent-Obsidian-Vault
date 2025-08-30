@@ -60,7 +60,7 @@ Animate $m$, $n_1$, $n_2$, $n_3$ ​ slowly with LFOs tied to zodiac phase.
 
 - **Epitrochoid/Hypotrochoid (spirograph)**:  
 $$x=(R+r)cos⁡θ−dcos⁡ ⁣(R+rrθ)$$
-$$y=(R+r)sin⁡θ−dsin⁡ ⁣(\frac{R+r}{r}θ)$$
+$$y=(R+r)sin⁡θ−dsin⁡⁣ \left(\frac{R+r}{r}θ \right)$$
 
 - **Rose/“rhodonea” curves**: 
 	$r=acos⁡(kθ)$ for $k$ integer/rational (mandala petals).
