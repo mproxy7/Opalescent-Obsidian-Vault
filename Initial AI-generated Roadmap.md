@@ -298,12 +298,10 @@ $$s=\int \sqrt{x'^2+y'^2}dθ$$
 
 
 (Parallel) **Tarot/Kabbalah**
-
 - Build the graph, a traversal scheduler, and per-path audiovisual signatures.
 
 
 (Parallel) **Telemetry**
-
 - WebSocket server; live dashboard of λ, Z, stage, loss.
 
 

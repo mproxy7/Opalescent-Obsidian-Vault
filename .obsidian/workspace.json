@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ef69d79f767a5f2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Manifesto.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Manifesto"
-            }
-          },
-          {
             "id": "ec6849f1491f6a07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Initial AI-generated Roadmap.md",
+                "file": "Computer Science/Web Dev/Tailwind/Tailwind CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Initial AI-generated Roadmap"
+              "title": "Tailwind CSS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 311.5
   },
   "right": {
     "id": "0afd6bb7da006b05",
@@ -188,41 +172,41 @@
   "active": "ec6849f1491f6a07",
   "lastOpenFiles": [
     "Mathematics/0.5 Basics II/2. Least Common Multiplier (LCM).md",
+    "Computer Science/Web Dev/Tailwind/Tailwind CSS.md",
+    "Computer Science/Web Dev/Prisma",
+    "Computer Science/Web Dev/Tailwind",
+    "Computer Science/Web Dev/React",
+    "Computer Science/Web Dev/Next.js",
+    "Computer Science/Web Dev",
+    "Computer Science/Web Dev/Static Site Generation",
+    "Computer Science/Web Dev/Typescript",
+    "Computer Science/Web Dev/SQL",
+    "Computer Science/Web Dev/Node.js",
+    "Computer Science/C&C++",
     "Mathematics/0.5 Basics II/1. Divisibility, Prime Numbers, and Prime Factorization.md",
-    "Mathematics/0. Basics I/1. Arithmetic.md",
-    "Mathematics/0. Basics I/2. Improper Fractions and Mixed Numbers.md",
-    "Mathematics/0. Basics I/3.  Percentages, Fractions, and Decimals.md",
-    "Mathematics/0. Basics I/4. Large Numbers.md",
-    "Mathematics/0. Basics I/5. The Distributive Property.md",
-    "Mathematics/0. Basics I/6. Multiplication of Large Numbers.md",
-    "Mathematics/0. Basics I/7. Long Division.md",
-    "Mathematics/0. Basics I/8. Negative Numbers.md",
-    "Mathematics/0. Basics I/9. Exponents.md",
     "Mathematics/0. Basics I/X. PEMDAS.md",
+    "Mathematics/0. Basics I/9. Exponents.md",
+    "Mathematics/0. Basics I/8. Negative Numbers.md",
+    "Mathematics/0. Basics I/7. Long Division.md",
+    "Mathematics/0. Basics I/6. Multiplication of Large Numbers.md",
+    "Mathematics/0. Basics I/5. The Distributive Property.md",
+    "Mathematics/0. Basics I/4. Large Numbers.md",
+    "Mathematics/0. Basics I/3.  Percentages, Fractions, and Decimals.md",
+    "Mathematics/0. Basics I/2. Improper Fractions and Mixed Numbers.md",
+    "Mathematics/0. Basics I/1. Arithmetic.md",
+    "Manifesto.md",
     "Initial AI-generated Roadmap.md",
-    "Mathematics/Untitled.md",
-    "Mathematics/0.5 Basics II",
+    "Occult Philosophy/Tarot/0. Purpose.md",
+    "Spiritual Convalescence/Routines - Divine and Detrimental.md",
+    "Spiritual Convalescence/Stages of Descent.md",
     "Mathematics/long_division.png",
-    "Computer Science/7. Deep Learning",
-    "Computer Science/6. Machine Learning",
-    "Computer Science/5. Data Mining",
-    "Computer Science/4. Unix Administration",
-    "Computer Science/3. Operating Systems",
-    "Computer Science/2. Network Stack",
-    "Computer Science/1. Introduction to Computer Networks",
-    "Misc. Engineering and Science/X. Nanotechnology",
-    "Misc. Engineering and Science/3. Fundamentals of Mechanical Engineering",
-    "STAA Study/45. The Mysteries and their Emissaries.md",
-    "STAA Study/44. American Indian Symbolism.md",
-    "STAA Study/43. The Faith of Islam.md",
-    "STAA Study/42. The Mystery of the Apocalypse.md",
-    "STAA Study/41. The Cross and the Crucifixion.md",
-    "STAA Study/40. Mystic Christianity.md",
-    "STAA Study/39. Freemasonic Symbolism.md",
-    "STAA Study/38. The Cryptogram as a Factor in Symbolic Philosophy.md",
-    "STAA Study/37. Bacon, Shakespeare, and the Rosicrucians.md",
-    "STAA Study/36. The Chemical Marriage.md",
-    "STAA Study/35. The Theory and Practice of Alchemy, Part II.md",
-    "STAA Study/34. The Theory and Practice of Alchemy.md"
+    "Occult Philosophy/STAA Study/25.  Fundamentals of Qabbalistic Cosmogony.md",
+    "Mathematics/Untitled.md",
+    "Occult Philosophy/STAA Study/45. The Mysteries and their Emissaries.md",
+    "Occult Philosophy/STAA Study/44. American Indian Symbolism.md",
+    "Occult Philosophy/STAA Study/43. The Faith of Islam.md",
+    "Occult Philosophy/STAA Study/42. The Mystery of the Apocalypse.md",
+    "Occult Philosophy/STAA Study/41. The Cross and the Crucifixion.md",
+    "Occult Philosophy/STAA Study/40. Mystic Christianity.md"
   ]
 }
